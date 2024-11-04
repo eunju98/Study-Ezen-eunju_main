@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>다이소몰</title>
+        <link
+            rel="stylesheet"
+            href="register.css"
+        />
+    </head>
+    <body>
+        <!-- Header 영역 -->
+        <header id="header">
+            <div class="header-wrap">
+                <div class="header-top">
+                    <div class="grid">
+                        <h1 id="logo">
+                            <a href="#"
+                                ><img
+                                    src="../../../resources/img/logo.svg"
+                                    alt="다이소 로고"
+                            /></a>
+                        </h1>
+                        <div class="search">
+                            <div class="search-bar">
+                                <form action="#">
+                                    <fieldset>
+                                        <legend class="blind">검색</legend>
+                                        <input
+                                            class="search-txt"
+                                            type="search"
+                                            title="검색어를 입력해 주세요."
+                                        />
+                                        <button
+                                            class="search-btn"
+                                            type="submit"
+                                        ></button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <div class="rank">
+                                <ul>
+                                    <li><span>1</span><a href="#">캠핑</a></li>
+                                    <li><span>2</span><a href="#">캠핑</a></li>
+                                    <li><span>3</span><a href="#">캠핑</a></li>
+                                    <li><span>4</span><a href="#">캠핑</a></li>
+                                    <li><span>5</span><a href="#">캠핑</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="util">
+                            <a href="#"><span class="blind">오늘의 발견</span></a>
+                            <div class="my-page">마이페이지</div>
+                            <div class="cart">장바구니</div>
+                        </div>
+                    </div>
+                </div>
+                <nav id="gnb">
+                    <div class="grid">
+                        <div class="menu">
+                            <button class="menu-btn"><span class="blind">메뉴</span></button>
+                            <div class="goto">
+                                <ul>
+                                    <li>
+                                        <a href="#"><span class="blind">패션신상템</span></a>
+                                    </li>
+                                    <li class="active"><a href="#">홈</a></li>
+                                    <li><a href="#">신상</a></li>
+                                    <li><a href="#">랭킹</a></li>
+                                    <li><a href="#">기획전</a></li>
+                                    <li><a href="#">뷰티</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <ul>
+                                <li><a href="#">로그인</a></li>
+                                <li><a href="#">회원가입</a></li>
+                                <li><a href="#">멤버십</a></li>
+                                <li><a href="#">매장위치/상품</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="menu-all">
+                <div class="menu-grid">
+                    <ul class="depth1">
+                        <li>
+                            <a href="#">뷰티/위생</a>
+                            <div class="depth2">
+                                <div class="col">
+                                    <ul>
+                                        <a href="#">스킨케어</a>
+                                        <li><a href="#">기초스킨케어</a></li>
+                                        <li><a href="#">립케어</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">수납/정리</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content 영역 -->
+        <main class="main-content">
+            <section class="tab-menu">
+                <button class="tab-button">멤버십</button>
+                <button class="tab-button active">매장 위치 찾기</button>
+                <button class="tab-button">매장 상품 찾기</button>
+            </section>
+
+            <section class="store-locator">
+                <h2>매장 위치 찾기</h2>
+                <div class="search-bar">
+                    <input
+                        type="text"
+                        placeholder="매장명 또는 지역을 입력해주세요"
+                    />
+                    <button class="search-button">
+                        <img
+                            src="search-icon.png"
+                            alt="검색 아이콘"
+                        />
+                    </button>
+                </div>
+                <div class="map">
+                    <img
+                        src="../../../resources/img/map.jpg"
+                        alt="지도 예시"
+                    />
+                </div>
+                <div class="store-info">
+                    <h3>매봉역점 <span class="tag">픽업 가능 매장</span></h3>
+                    <p>서울 강남구 남부순환로 2748</p>
+                    <p>영업 시간: 09:00 - 22:00</p>
+                    <p>매장 전화: 1522-4400</p>
+                    <div class="store-tags">
+                        <span>주차</span>
+                        <span>포인트 적립</span>
+                        <span>포인트 사용</span>
+                        <span>전자영수증</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer 영역 -->
+        <footer class="footer">
+            <p>ⓒ DaisoMall. All Rights Reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
